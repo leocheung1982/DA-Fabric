@@ -31,3 +31,10 @@ DA-Fabric/
 ├── results/           # Generated experimental results
 ├── figures/           # Generated plots
 └── ui/                # Optional Streamlit demo
+
+
+## Installation
+
+git clone https://github.com/yourname/DA-Fabric.git
+cd DA-Fabric
+pip install -r requirements.txt

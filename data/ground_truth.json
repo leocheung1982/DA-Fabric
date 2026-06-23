@@ -1,0 +1,5280 @@
+[
+  {
+    "demand_id": "dem-00001",
+    "resource_id": "res-00262",
+    "relevance": 0.764,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00001",
+    "resource_id": "res-00091",
+    "relevance": 0.764,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00001",
+    "resource_id": "res-00100",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00001",
+    "resource_id": "res-00136",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00001",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00001",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00002",
+    "resource_id": "res-00218",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00002",
+    "resource_id": "res-00497",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00002",
+    "resource_id": "res-00353",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00002",
+    "resource_id": "res-00326",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00002",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00002",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00220",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00454",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00238",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00319",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00265",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00328",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00148",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00004",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00003",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00302",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00338",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00374",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00392",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00005",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00023",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00131",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00004",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00214",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00025",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00187",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00268",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00007",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00106",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00376",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00304",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00005",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00006",
+    "resource_id": "res-00458",
+    "relevance": 0.764,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00006",
+    "resource_id": "res-00431",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00006",
+    "resource_id": "res-00152",
+    "relevance": 0.761,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00006",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00006",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00087",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00168",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00213",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00267",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00303",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00051",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00393",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00375",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00007",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00008",
+    "resource_id": "res-00334",
+    "relevance": 0.716,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00008",
+    "resource_id": "res-00262",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00008",
+    "resource_id": "res-00136",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00008",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00008",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00012",
+    "relevance": 0.754,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00480",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00336",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00084",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00264",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00498",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00009",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00010",
+    "resource_id": "res-00302",
+    "relevance": 0.778,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00010",
+    "resource_id": "res-00293",
+    "relevance": 0.773,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00010",
+    "resource_id": "res-00338",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00010",
+    "resource_id": "res-00374",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00010",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00010",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00262",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00136",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00190",
+    "relevance": 0.769,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00091",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00352",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00163",
+    "relevance": 0.767,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00154",
+    "relevance": 0.766,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00199",
+    "relevance": 0.766,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00011",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00218",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00326",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00497",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00002",
+    "relevance": 0.731,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00335",
+    "relevance": 0.73,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00416",
+    "relevance": 0.728,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00344",
+    "relevance": 0.728,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00012",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00013",
+    "resource_id": "res-00121",
+    "relevance": 0.75,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00013",
+    "resource_id": "res-00319",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00013",
+    "resource_id": "res-00454",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00013",
+    "resource_id": "res-00220",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00013",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00013",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00014",
+    "resource_id": "res-00374",
+    "relevance": 0.792,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00014",
+    "resource_id": "res-00302",
+    "relevance": 0.791,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00014",
+    "resource_id": "res-00338",
+    "relevance": 0.791,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00014",
+    "resource_id": "res-00131",
+    "relevance": 0.789,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00014",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00014",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00214",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00106",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00025",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00007",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00430",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00187",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00304",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00475",
+    "relevance": 0.754,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00015",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00179",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00062",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00458",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00017",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00161",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00044",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00431",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00188",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00016",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00276",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00168",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00114",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00384",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00204",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00366",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00438",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00017",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00018",
+    "resource_id": "res-00100",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00018",
+    "resource_id": "res-00145",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00018",
+    "resource_id": "res-00091",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00018",
+    "resource_id": "res-00190",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00018",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00018",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00165",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00120",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00201",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00012",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00093",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00174",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00019",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00020",
+    "resource_id": "res-00293",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00020",
+    "resource_id": "res-00500",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00020",
+    "resource_id": "res-00311",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00020",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00020",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00262",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00163",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00091",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00136",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00433",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00190",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00100",
+    "relevance": 0.755,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00352",
+    "relevance": 0.755,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00021",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00218",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00326",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00497",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00380",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00254",
+    "relevance": 0.73,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00173",
+    "relevance": 0.73,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00022",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00023",
+    "resource_id": "res-00220",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00023",
+    "resource_id": "res-00238",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00023",
+    "resource_id": "res-00454",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00023",
+    "resource_id": "res-00328",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00023",
+    "resource_id": "res-00319",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00023",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00023",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00338",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00302",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00392",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00374",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00005",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00023",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00131",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00024",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00214",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00025",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00268",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00007",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00106",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00466",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00331",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00187",
+    "relevance": 0.731,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00025",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00026",
+    "resource_id": "res-00062",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00026",
+    "resource_id": "res-00458",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00026",
+    "resource_id": "res-00161",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00026",
+    "resource_id": "res-00044",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00026",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00026",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00087",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00168",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00393",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00375",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00177",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00213",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00027",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00100",
+    "relevance": 0.728,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00145",
+    "relevance": 0.725,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00091",
+    "relevance": 0.725,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00190",
+    "relevance": 0.725,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00307",
+    "relevance": 0.724,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00433",
+    "relevance": 0.724,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00460",
+    "relevance": 0.722,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00028",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00029",
+    "resource_id": "res-00012",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00029",
+    "resource_id": "res-00480",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00029",
+    "resource_id": "res-00264",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00029",
+    "resource_id": "res-00120",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00029",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00029",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00030",
+    "resource_id": "res-00338",
+    "relevance": 0.776,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00030",
+    "resource_id": "res-00302",
+    "relevance": 0.775,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00030",
+    "resource_id": "res-00392",
+    "relevance": 0.775,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00030",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00030",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00262",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00091",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00100",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00136",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00163",
+    "relevance": 0.767,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00190",
+    "relevance": 0.765,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00031",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00032",
+    "resource_id": "res-00344",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00032",
+    "resource_id": "res-00218",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00032",
+    "resource_id": "res-00497",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00032",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00032",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00032",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00454",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00121",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00319",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00220",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00265",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00328",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00004",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00033",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00302",
+    "relevance": 0.78,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00338",
+    "relevance": 0.776,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00374",
+    "relevance": 0.773,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00392",
+    "relevance": 0.771,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00023",
+    "relevance": 0.77,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00005",
+    "relevance": 0.77,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00131",
+    "relevance": 0.77,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00356",
+    "relevance": 0.769,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00034",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00214",
+    "relevance": 0.765,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00025",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00187",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00007",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00106",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00376",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00035",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00036",
+    "resource_id": "res-00179",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00036",
+    "resource_id": "res-00458",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00036",
+    "resource_id": "res-00431",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00036",
+    "resource_id": "res-00152",
+    "relevance": 0.75,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00036",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00036",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00114",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00384",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00168",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00276",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00366",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00438",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00204",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00037",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00038",
+    "resource_id": "res-00145",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00038",
+    "resource_id": "res-00100",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00038",
+    "resource_id": "res-00091",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00038",
+    "resource_id": "res-00190",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00038",
+    "resource_id": "res-00433",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00038",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00038",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00039",
+    "resource_id": "res-00165",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00039",
+    "resource_id": "res-00120",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00039",
+    "resource_id": "res-00201",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00039",
+    "resource_id": "res-00012",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00039",
+    "resource_id": "res-00093",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00039",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00039",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00040",
+    "resource_id": "res-00293",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00040",
+    "resource_id": "res-00500",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00040",
+    "resource_id": "res-00302",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00040",
+    "resource_id": "res-00311",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00040",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00040",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00262",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00136",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00190",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00091",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00352",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00163",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00041",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00218",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00326",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00254",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00497",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00380",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00002",
+    "relevance": 0.731,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00042",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00220",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00238",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00454",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00319",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00013",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00328",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00043",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00374",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00302",
+    "relevance": 0.761,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00338",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00005",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00131",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00392",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00023",
+    "relevance": 0.755,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00044",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00045",
+    "resource_id": "res-00214",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00045",
+    "resource_id": "res-00106",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00045",
+    "resource_id": "res-00025",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00045",
+    "resource_id": "res-00268",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00045",
+    "resource_id": "res-00007",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00045",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00045",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00046",
+    "resource_id": "res-00062",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00046",
+    "resource_id": "res-00458",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00046",
+    "resource_id": "res-00161",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00046",
+    "resource_id": "res-00044",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00046",
+    "resource_id": "res-00431",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00046",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00046",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00047",
+    "resource_id": "res-00087",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00047",
+    "resource_id": "res-00168",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00047",
+    "resource_id": "res-00213",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00047",
+    "resource_id": "res-00267",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00047",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00047",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00262",
+    "relevance": 0.717,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00415",
+    "relevance": 0.716,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00136",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00154",
+    "relevance": 0.713,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00334",
+    "relevance": 0.713,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00100",
+    "relevance": 0.713,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00352",
+    "relevance": 0.712,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00048",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00049",
+    "resource_id": "res-00012",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00049",
+    "resource_id": "res-00264",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00049",
+    "resource_id": "res-00480",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00049",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00049",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00293",
+    "relevance": 0.773,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00500",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00311",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00374",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00302",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00131",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00005",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00338",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00050",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00262",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00163",
+    "relevance": 0.771,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00091",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00136",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00433",
+    "relevance": 0.766,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00190",
+    "relevance": 0.765,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00051",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00052",
+    "resource_id": "res-00344",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00052",
+    "resource_id": "res-00218",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00052",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00052",
+    "resource_id": "res-00326",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00052",
+    "resource_id": "res-00497",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00052",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00052",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00454",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00121",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00328",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00319",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00220",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00076",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00004",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00238",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00053",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00338",
+    "relevance": 0.779,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00302",
+    "relevance": 0.776,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00392",
+    "relevance": 0.774,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00374",
+    "relevance": 0.773,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00023",
+    "relevance": 0.77,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00005",
+    "relevance": 0.77,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00131",
+    "relevance": 0.77,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00054",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00214",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00025",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00007",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00106",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00466",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00331",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00055",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00056",
+    "resource_id": "res-00179",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00056",
+    "resource_id": "res-00062",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00056",
+    "resource_id": "res-00458",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00056",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00056",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00057",
+    "resource_id": "res-00168",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00057",
+    "resource_id": "res-00276",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00057",
+    "resource_id": "res-00114",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00057",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00057",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00100",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00145",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00091",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00190",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00307",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00433",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00058",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00165",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00120",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00201",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00012",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00174",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00111",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00093",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00059",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00060",
+    "resource_id": "res-00338",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00060",
+    "resource_id": "res-00302",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00060",
+    "resource_id": "res-00392",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00060",
+    "resource_id": "res-00293",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00060",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00060",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00262",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00091",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00100",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00136",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00163",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00190",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00352",
+    "relevance": 0.755,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00433",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00061",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00062",
+    "resource_id": "res-00218",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00062",
+    "resource_id": "res-00497",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00062",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00062",
+    "resource_id": "res-00326",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00062",
+    "resource_id": "res-00344",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00062",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00062",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00220",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00454",
+    "relevance": 0.75,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00238",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00319",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00265",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00328",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00148",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00004",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00063",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00064",
+    "resource_id": "res-00302",
+    "relevance": 0.765,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00064",
+    "resource_id": "res-00338",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00064",
+    "resource_id": "res-00374",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00064",
+    "resource_id": "res-00392",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00064",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00064",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00214",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00025",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00187",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00268",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00007",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00106",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00376",
+    "relevance": 0.731,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00065",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00066",
+    "resource_id": "res-00458",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00066",
+    "resource_id": "res-00431",
+    "relevance": 0.761,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00066",
+    "resource_id": "res-00152",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00066",
+    "resource_id": "res-00062",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00066",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00066",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00087",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00168",
+    "relevance": 0.754,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00213",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00267",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00303",
+    "relevance": 0.752,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00051",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00393",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00375",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00067",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00334",
+    "relevance": 0.716,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00262",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00136",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00145",
+    "relevance": 0.713,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00415",
+    "relevance": 0.713,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00154",
+    "relevance": 0.713,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00100",
+    "relevance": 0.713,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00068",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00069",
+    "resource_id": "res-00012",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00069",
+    "resource_id": "res-00480",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00069",
+    "resource_id": "res-00336",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00069",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00069",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00293",
+    "relevance": 0.773,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00302",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00500",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00311",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00338",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00374",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00149",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00356",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00070",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00071",
+    "resource_id": "res-00262",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00071",
+    "resource_id": "res-00136",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00071",
+    "resource_id": "res-00190",
+    "relevance": 0.769,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00071",
+    "resource_id": "res-00091",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00071",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00071",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00072",
+    "resource_id": "res-00344",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00072",
+    "resource_id": "res-00218",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00072",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00072",
+    "resource_id": "res-00326",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00072",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00072",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00121",
+    "relevance": 0.75,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00319",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00454",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00220",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00013",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00328",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00292",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00373",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00073",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00074",
+    "resource_id": "res-00374",
+    "relevance": 0.792,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00074",
+    "resource_id": "res-00302",
+    "relevance": 0.791,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00074",
+    "resource_id": "res-00338",
+    "relevance": 0.791,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00074",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00074",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00075",
+    "resource_id": "res-00214",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00075",
+    "resource_id": "res-00106",
+    "relevance": 0.76,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00075",
+    "resource_id": "res-00025",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00075",
+    "resource_id": "res-00007",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00075",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00075",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00076",
+    "resource_id": "res-00179",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00076",
+    "resource_id": "res-00062",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00076",
+    "resource_id": "res-00458",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00076",
+    "resource_id": "res-00017",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00076",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00076",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00276",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00168",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00114",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00384",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00204",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00366",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00438",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00024",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00077",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00078",
+    "resource_id": "res-00100",
+    "relevance": 0.723,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00078",
+    "resource_id": "res-00145",
+    "relevance": 0.72,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00078",
+    "resource_id": "res-00091",
+    "relevance": 0.72,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00078",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00078",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00165",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00120",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00201",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00012",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00093",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00174",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00264",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00480",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00079",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00080",
+    "resource_id": "res-00374",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00080",
+    "resource_id": "res-00302",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00080",
+    "resource_id": "res-00005",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00080",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00080",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00262",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00163",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00091",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00136",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00433",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00190",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00100",
+    "relevance": 0.755,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00352",
+    "relevance": 0.755,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00081",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00218",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00326",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00497",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00380",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00254",
+    "relevance": 0.73,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00082",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00083",
+    "resource_id": "res-00220",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00083",
+    "resource_id": "res-00238",
+    "relevance": 0.749,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00083",
+    "resource_id": "res-00454",
+    "relevance": 0.747,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00083",
+    "resource_id": "res-00328",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00083",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00083",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00084",
+    "resource_id": "res-00338",
+    "relevance": 0.764,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00084",
+    "resource_id": "res-00302",
+    "relevance": 0.761,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00084",
+    "resource_id": "res-00392",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00084",
+    "resource_id": "res-00374",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00084",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00084",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00085",
+    "resource_id": "res-00214",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00085",
+    "resource_id": "res-00025",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00085",
+    "resource_id": "res-00268",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00085",
+    "resource_id": "res-00007",
+    "relevance": 0.733,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00085",
+    "resource_id": "res-00106",
+    "relevance": 0.732,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00085",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00085",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00086",
+    "resource_id": "res-00062",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00086",
+    "resource_id": "res-00458",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00086",
+    "resource_id": "res-00161",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00086",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00086",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00087",
+    "relevance": 0.761,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00168",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00393",
+    "relevance": 0.755,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00375",
+    "relevance": 0.754,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00177",
+    "relevance": 0.754,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00213",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00267",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00087",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00088",
+    "resource_id": "res-00262",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00088",
+    "resource_id": "res-00487",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00088",
+    "resource_id": "res-00136",
+    "relevance": 0.714,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00088",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00088",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00012",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00480",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00264",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00120",
+    "relevance": 0.745,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00426",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00336",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00102",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00084",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00089",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00090",
+    "resource_id": "res-00293",
+    "relevance": 0.773,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00090",
+    "resource_id": "res-00500",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00090",
+    "resource_id": "res-00311",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00090",
+    "resource_id": "res-00338",
+    "relevance": 0.761,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00090",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00090",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00262",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00091",
+    "relevance": 0.772,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00100",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00136",
+    "relevance": 0.768,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00163",
+    "relevance": 0.767,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00190",
+    "relevance": 0.765,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00352",
+    "relevance": 0.764,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00154",
+    "relevance": 0.763,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00091",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00092",
+    "resource_id": "res-00218",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00092",
+    "resource_id": "res-00497",
+    "relevance": 0.736,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00092",
+    "resource_id": "res-00353",
+    "relevance": 0.734,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00092",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00092",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00454",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00121",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00319",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00220",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00265",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00328",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00004",
+    "relevance": 0.74,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00058",
+    "relevance": 0.739,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00093",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00094",
+    "resource_id": "res-00302",
+    "relevance": 0.78,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00094",
+    "resource_id": "res-00338",
+    "relevance": 0.776,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00094",
+    "resource_id": "res-00374",
+    "relevance": 0.773,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00094",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00094",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00214",
+    "relevance": 0.765,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00025",
+    "relevance": 0.762,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00187",
+    "relevance": 0.759,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00007",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00106",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00376",
+    "relevance": 0.756,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00095",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00096",
+    "resource_id": "res-00179",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00096",
+    "resource_id": "res-00458",
+    "relevance": 0.753,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00096",
+    "resource_id": "res-00431",
+    "relevance": 0.751,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00096",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00096",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00097",
+    "resource_id": "res-00114",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00097",
+    "resource_id": "res-00384",
+    "relevance": 0.758,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00097",
+    "resource_id": "res-00168",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00097",
+    "resource_id": "res-00276",
+    "relevance": 0.757,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00097",
+    "resource_id": "res-00366",
+    "relevance": 0.754,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00097",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00097",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00098",
+    "resource_id": "res-00145",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00098",
+    "resource_id": "res-00100",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00098",
+    "resource_id": "res-00091",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00098",
+    "resource_id": "res-00190",
+    "relevance": 0.735,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00098",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00098",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00165",
+    "relevance": 0.746,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00120",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00201",
+    "relevance": 0.744,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00012",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00093",
+    "relevance": 0.738,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00174",
+    "relevance": 0.737,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00099",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00100",
+    "resource_id": "res-00302",
+    "relevance": 0.748,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00100",
+    "resource_id": "res-00293",
+    "relevance": 0.743,
+    "label": "relevant",
+    "requires_mapping": false
+  },
+  {
+    "demand_id": "dem-00100",
+    "resource_id": "res-00338",
+    "relevance": 0.742,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00100",
+    "resource_id": "res-00374",
+    "relevance": 0.741,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00100",
+    "resource_id": "res-00001",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  },
+  {
+    "demand_id": "dem-00100",
+    "resource_id": "res-00002",
+    "relevance": 0.98,
+    "label": "relevant",
+    "requires_mapping": true
+  }
+]

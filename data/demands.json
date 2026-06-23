@@ -1,0 +1,4342 @@
+[
+  {
+    "demand_id": "dem-00001",
+    "user_id": "user-001",
+    "role": "enforcement_officer",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Query enterprise profile #1",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00001",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-110000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "critical",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-25T10:54:04.217719+00:00"
+  },
+  {
+    "demand_id": "dem-00002",
+    "user_id": "user-002",
+    "role": "compliance_manager",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Cross-check license and penalty records #2",
+    "object_type": "license",
+    "object_id": "license-00002",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-310000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "push",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-06T10:54:04.217749+00:00"
+  },
+  {
+    "demand_id": "dem-00003",
+    "user_id": "user-003",
+    "role": "supervisor",
+    "application": "Industry Analysis Workbench",
+    "task": "Track inspection outcomes #3",
+    "object_type": "inspection",
+    "object_id": "inspection-00003",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-440000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "push",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-10T10:54:04.217766+00:00"
+  },
+  {
+    "demand_id": "dem-00004",
+    "user_id": "user-004",
+    "role": "supervisor",
+    "application": "Proactive Compliance Assistant",
+    "task": "Monitor high-risk enterprises #4",
+    "object_type": "risk",
+    "object_id": "risk-00004",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-15T10:54:04.217784+00:00"
+  },
+  {
+    "demand_id": "dem-00005",
+    "user_id": "user-005",
+    "role": "analyst",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Build regional risk dashboard #5",
+    "object_type": "region",
+    "object_id": "region-00005",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-510000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-07T10:54:04.217798+00:00"
+  },
+  {
+    "demand_id": "dem-00006",
+    "user_id": "user-006",
+    "role": "policy_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Analyze industry regulatory trends #6",
+    "object_type": "industry",
+    "object_id": "industry-00006",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-420000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-14T10:54:04.217811+00:00"
+  },
+  {
+    "demand_id": "dem-00007",
+    "user_id": "user-007",
+    "role": "enforcement_officer",
+    "application": "Industry Analysis Workbench",
+    "task": "Investigate complaint-related records #7",
+    "object_type": "complaint",
+    "object_id": "complaint-00007",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-110000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-22T10:54:04.217826+00:00"
+  },
+  {
+    "demand_id": "dem-00008",
+    "user_id": "user-008",
+    "role": "enforcement_officer",
+    "application": "Proactive Compliance Assistant",
+    "task": "Detect abnormal enterprise operations #8",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00008",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-310000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-14T10:54:04.217838+00:00"
+  },
+  {
+    "demand_id": "dem-00009",
+    "user_id": "user-009",
+    "role": "compliance_manager",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Execute regulatory handling workflow #9",
+    "object_type": "penalty",
+    "object_id": "penalty-00009",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-440000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-07T10:54:04.217853+00:00"
+  },
+  {
+    "demand_id": "dem-00010",
+    "user_id": "user-010",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Subscribe to proactive risk change alerts #10",
+    "object_type": "risk",
+    "object_id": "risk-00010",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "low",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-15T10:54:04.217865+00:00"
+  },
+  {
+    "demand_id": "dem-00011",
+    "user_id": "user-011",
+    "role": "enforcement_officer",
+    "application": "Industry Analysis Workbench",
+    "task": "Query enterprise profile #11",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00011",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-510000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-01T10:54:04.217877+00:00"
+  },
+  {
+    "demand_id": "dem-00012",
+    "user_id": "user-012",
+    "role": "enforcement_officer",
+    "application": "Proactive Compliance Assistant",
+    "task": "Cross-check license and penalty records #12",
+    "object_type": "license",
+    "object_id": "license-00012",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-420000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-11T10:54:04.217890+00:00"
+  },
+  {
+    "demand_id": "dem-00013",
+    "user_id": "user-013",
+    "role": "inspector",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Track inspection outcomes #13",
+    "object_type": "inspection",
+    "object_id": "inspection-00013",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-110000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "low",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-17T10:54:04.217902+00:00"
+  },
+  {
+    "demand_id": "dem-00014",
+    "user_id": "user-014",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Monitor high-risk enterprises #14",
+    "object_type": "risk",
+    "object_id": "risk-00014",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-310000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-19T10:54:04.217913+00:00"
+  },
+  {
+    "demand_id": "dem-00015",
+    "user_id": "user-015",
+    "role": "regional_admin",
+    "application": "Industry Analysis Workbench",
+    "task": "Build regional risk dashboard #15",
+    "object_type": "region",
+    "object_id": "region-00015",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-440000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-19T10:54:04.217926+00:00"
+  },
+  {
+    "demand_id": "dem-00016",
+    "user_id": "user-016",
+    "role": "researcher",
+    "application": "Proactive Compliance Assistant",
+    "task": "Analyze industry regulatory trends #16",
+    "object_type": "industry",
+    "object_id": "industry-00016",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-330000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-10T10:54:04.217938+00:00"
+  },
+  {
+    "demand_id": "dem-00017",
+    "user_id": "user-017",
+    "role": "enforcement_officer",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Investigate complaint-related records #17",
+    "object_type": "complaint",
+    "object_id": "complaint-00017",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-510000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-04T10:54:04.217955+00:00"
+  },
+  {
+    "demand_id": "dem-00018",
+    "user_id": "user-018",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Detect abnormal enterprise operations #18",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00018",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-420000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-16T10:54:04.217966+00:00"
+  },
+  {
+    "demand_id": "dem-00019",
+    "user_id": "user-019",
+    "role": "compliance_manager",
+    "application": "Industry Analysis Workbench",
+    "task": "Execute regulatory handling workflow #19",
+    "object_type": "penalty",
+    "object_id": "penalty-00019",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-110000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-27T10:54:04.217978+00:00"
+  },
+  {
+    "demand_id": "dem-00020",
+    "user_id": "user-020",
+    "role": "regional_admin",
+    "application": "Proactive Compliance Assistant",
+    "task": "Subscribe to proactive risk change alerts #20",
+    "object_type": "risk",
+    "object_id": "risk-00020",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-310000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-28T10:54:04.217992+00:00"
+  },
+  {
+    "demand_id": "dem-00021",
+    "user_id": "user-001",
+    "role": "enforcement_officer",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Query enterprise profile #21",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00021",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-440000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-23T10:54:04.218005+00:00"
+  },
+  {
+    "demand_id": "dem-00022",
+    "user_id": "user-002",
+    "role": "enforcement_officer",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Cross-check license and penalty records #22",
+    "object_type": "license",
+    "object_id": "license-00022",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-330000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-28T10:54:04.218016+00:00"
+  },
+  {
+    "demand_id": "dem-00023",
+    "user_id": "user-003",
+    "role": "inspector",
+    "application": "Industry Analysis Workbench",
+    "task": "Track inspection outcomes #23",
+    "object_type": "inspection",
+    "object_id": "inspection-00023",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-510000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-20T10:54:04.218029+00:00"
+  },
+  {
+    "demand_id": "dem-00024",
+    "user_id": "user-004",
+    "role": "supervisor",
+    "application": "Proactive Compliance Assistant",
+    "task": "Monitor high-risk enterprises #24",
+    "object_type": "risk",
+    "object_id": "risk-00024",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-420000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-25T10:54:04.218040+00:00"
+  },
+  {
+    "demand_id": "dem-00025",
+    "user_id": "user-005",
+    "role": "analyst",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Build regional risk dashboard #25",
+    "object_type": "region",
+    "object_id": "region-00025",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-110000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "low",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-24T10:54:04.218052+00:00"
+  },
+  {
+    "demand_id": "dem-00026",
+    "user_id": "user-006",
+    "role": "researcher",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Analyze industry regulatory trends #26",
+    "object_type": "industry",
+    "object_id": "industry-00026",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-310000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-16T10:54:04.218095+00:00"
+  },
+  {
+    "demand_id": "dem-00027",
+    "user_id": "user-007",
+    "role": "enforcement_officer",
+    "application": "Industry Analysis Workbench",
+    "task": "Investigate complaint-related records #27",
+    "object_type": "complaint",
+    "object_id": "complaint-00027",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-440000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-18T10:54:04.218130+00:00"
+  },
+  {
+    "demand_id": "dem-00028",
+    "user_id": "user-008",
+    "role": "risk_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Detect abnormal enterprise operations #28",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00028",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-330000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-27T10:54:04.218147+00:00"
+  },
+  {
+    "demand_id": "dem-00029",
+    "user_id": "user-009",
+    "role": "compliance_manager",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Execute regulatory handling workflow #29",
+    "object_type": "penalty",
+    "object_id": "penalty-00029",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-510000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-28T10:54:04.218160+00:00"
+  },
+  {
+    "demand_id": "dem-00030",
+    "user_id": "user-010",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Subscribe to proactive risk change alerts #30",
+    "object_type": "risk",
+    "object_id": "risk-00030",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-420000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "critical",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-27T10:54:04.218172+00:00"
+  },
+  {
+    "demand_id": "dem-00031",
+    "user_id": "user-011",
+    "role": "analyst",
+    "application": "Industry Analysis Workbench",
+    "task": "Query enterprise profile #31",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00031",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-110000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-27T10:54:04.218184+00:00"
+  },
+  {
+    "demand_id": "dem-00032",
+    "user_id": "user-012",
+    "role": "compliance_manager",
+    "application": "Proactive Compliance Assistant",
+    "task": "Cross-check license and penalty records #32",
+    "object_type": "license",
+    "object_id": "license-00032",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-310000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-30T10:54:04.218198+00:00"
+  },
+  {
+    "demand_id": "dem-00033",
+    "user_id": "user-013",
+    "role": "supervisor",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Track inspection outcomes #33",
+    "object_type": "inspection",
+    "object_id": "inspection-00033",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-440000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "push",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-05T10:54:04.218211+00:00"
+  },
+  {
+    "demand_id": "dem-00034",
+    "user_id": "user-014",
+    "role": "supervisor",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Monitor high-risk enterprises #34",
+    "object_type": "risk",
+    "object_id": "risk-00034",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-16T10:54:04.218225+00:00"
+  },
+  {
+    "demand_id": "dem-00035",
+    "user_id": "user-015",
+    "role": "regional_admin",
+    "application": "Industry Analysis Workbench",
+    "task": "Build regional risk dashboard #35",
+    "object_type": "region",
+    "object_id": "region-00035",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-510000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-02T10:54:04.218237+00:00"
+  },
+  {
+    "demand_id": "dem-00036",
+    "user_id": "user-016",
+    "role": "researcher",
+    "application": "Proactive Compliance Assistant",
+    "task": "Analyze industry regulatory trends #36",
+    "object_type": "industry",
+    "object_id": "industry-00036",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-420000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-05T10:54:04.218248+00:00"
+  },
+  {
+    "demand_id": "dem-00037",
+    "user_id": "user-017",
+    "role": "enforcement_officer",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Investigate complaint-related records #37",
+    "object_type": "complaint",
+    "object_id": "complaint-00037",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-110000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-23T10:54:04.218261+00:00"
+  },
+  {
+    "demand_id": "dem-00038",
+    "user_id": "user-018",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Detect abnormal enterprise operations #38",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00038",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-310000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-30T10:54:04.218275+00:00"
+  },
+  {
+    "demand_id": "dem-00039",
+    "user_id": "user-019",
+    "role": "supervisor",
+    "application": "Industry Analysis Workbench",
+    "task": "Execute regulatory handling workflow #39",
+    "object_type": "penalty",
+    "object_id": "penalty-00039",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-440000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-22T10:54:04.218288+00:00"
+  },
+  {
+    "demand_id": "dem-00040",
+    "user_id": "user-020",
+    "role": "regional_admin",
+    "application": "Proactive Compliance Assistant",
+    "task": "Subscribe to proactive risk change alerts #40",
+    "object_type": "risk",
+    "object_id": "risk-00040",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-15T10:54:04.218302+00:00"
+  },
+  {
+    "demand_id": "dem-00041",
+    "user_id": "user-001",
+    "role": "analyst",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Query enterprise profile #41",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00041",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-510000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-29T10:54:04.218313+00:00"
+  },
+  {
+    "demand_id": "dem-00042",
+    "user_id": "user-002",
+    "role": "enforcement_officer",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Cross-check license and penalty records #42",
+    "object_type": "license",
+    "object_id": "license-00042",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-420000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-14T10:54:04.218325+00:00"
+  },
+  {
+    "demand_id": "dem-00043",
+    "user_id": "user-003",
+    "role": "supervisor",
+    "application": "Industry Analysis Workbench",
+    "task": "Track inspection outcomes #43",
+    "object_type": "inspection",
+    "object_id": "inspection-00043",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-110000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-01T10:54:04.218338+00:00"
+  },
+  {
+    "demand_id": "dem-00044",
+    "user_id": "user-004",
+    "role": "risk_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Monitor high-risk enterprises #44",
+    "object_type": "risk",
+    "object_id": "risk-00044",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-310000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-04T10:54:04.218350+00:00"
+  },
+  {
+    "demand_id": "dem-00045",
+    "user_id": "user-005",
+    "role": "analyst",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Build regional risk dashboard #45",
+    "object_type": "region",
+    "object_id": "region-00045",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-440000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-30T10:54:04.218363+00:00"
+  },
+  {
+    "demand_id": "dem-00046",
+    "user_id": "user-006",
+    "role": "researcher",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Analyze industry regulatory trends #46",
+    "object_type": "industry",
+    "object_id": "industry-00046",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-330000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-02T10:54:04.218374+00:00"
+  },
+  {
+    "demand_id": "dem-00047",
+    "user_id": "user-007",
+    "role": "enforcement_officer",
+    "application": "Industry Analysis Workbench",
+    "task": "Investigate complaint-related records #47",
+    "object_type": "complaint",
+    "object_id": "complaint-00047",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-510000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-24T10:54:04.218388+00:00"
+  },
+  {
+    "demand_id": "dem-00048",
+    "user_id": "user-008",
+    "role": "enforcement_officer",
+    "application": "Proactive Compliance Assistant",
+    "task": "Detect abnormal enterprise operations #48",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00048",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-420000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-20T10:54:04.218399+00:00"
+  },
+  {
+    "demand_id": "dem-00049",
+    "user_id": "user-009",
+    "role": "compliance_manager",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Execute regulatory handling workflow #49",
+    "object_type": "penalty",
+    "object_id": "penalty-00049",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-110000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "low",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-04T10:54:04.218412+00:00"
+  },
+  {
+    "demand_id": "dem-00050",
+    "user_id": "user-010",
+    "role": "regional_admin",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Subscribe to proactive risk change alerts #50",
+    "object_type": "risk",
+    "object_id": "risk-00050",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-310000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-12T10:54:04.218423+00:00"
+  },
+  {
+    "demand_id": "dem-00051",
+    "user_id": "user-011",
+    "role": "enforcement_officer",
+    "application": "Industry Analysis Workbench",
+    "task": "Query enterprise profile #51",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00051",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-440000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-02T10:54:04.218437+00:00"
+  },
+  {
+    "demand_id": "dem-00052",
+    "user_id": "user-012",
+    "role": "compliance_manager",
+    "application": "Proactive Compliance Assistant",
+    "task": "Cross-check license and penalty records #52",
+    "object_type": "license",
+    "object_id": "license-00052",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-330000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-05T10:54:04.218449+00:00"
+  },
+  {
+    "demand_id": "dem-00053",
+    "user_id": "user-013",
+    "role": "inspector",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Track inspection outcomes #53",
+    "object_type": "inspection",
+    "object_id": "inspection-00053",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-510000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-15T10:54:04.218464+00:00"
+  },
+  {
+    "demand_id": "dem-00054",
+    "user_id": "user-014",
+    "role": "supervisor",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Monitor high-risk enterprises #54",
+    "object_type": "risk",
+    "object_id": "risk-00054",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-420000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-06T10:54:04.218478+00:00"
+  },
+  {
+    "demand_id": "dem-00055",
+    "user_id": "user-015",
+    "role": "regional_admin",
+    "application": "Industry Analysis Workbench",
+    "task": "Build regional risk dashboard #55",
+    "object_type": "region",
+    "object_id": "region-00055",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-110000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-06T10:54:04.218490+00:00"
+  },
+  {
+    "demand_id": "dem-00056",
+    "user_id": "user-016",
+    "role": "researcher",
+    "application": "Proactive Compliance Assistant",
+    "task": "Analyze industry regulatory trends #56",
+    "object_type": "industry",
+    "object_id": "industry-00056",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-310000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-25T10:54:04.218501+00:00"
+  },
+  {
+    "demand_id": "dem-00057",
+    "user_id": "user-017",
+    "role": "enforcement_officer",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Investigate complaint-related records #57",
+    "object_type": "complaint",
+    "object_id": "complaint-00057",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-440000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-16T10:54:04.218516+00:00"
+  },
+  {
+    "demand_id": "dem-00058",
+    "user_id": "user-018",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Detect abnormal enterprise operations #58",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00058",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-330000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-28T10:54:04.218528+00:00"
+  },
+  {
+    "demand_id": "dem-00059",
+    "user_id": "user-019",
+    "role": "supervisor",
+    "application": "Industry Analysis Workbench",
+    "task": "Execute regulatory handling workflow #59",
+    "object_type": "penalty",
+    "object_id": "penalty-00059",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-510000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-24T10:54:04.218541+00:00"
+  },
+  {
+    "demand_id": "dem-00060",
+    "user_id": "user-020",
+    "role": "risk_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Subscribe to proactive risk change alerts #60",
+    "object_type": "risk",
+    "object_id": "risk-00060",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-420000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "low",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-09T10:54:04.218554+00:00"
+  },
+  {
+    "demand_id": "dem-00061",
+    "user_id": "user-001",
+    "role": "enforcement_officer",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Query enterprise profile #61",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00061",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-110000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-12T10:54:04.218566+00:00"
+  },
+  {
+    "demand_id": "dem-00062",
+    "user_id": "user-002",
+    "role": "compliance_manager",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Cross-check license and penalty records #62",
+    "object_type": "license",
+    "object_id": "license-00062",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-310000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-02T10:54:04.218579+00:00"
+  },
+  {
+    "demand_id": "dem-00063",
+    "user_id": "user-003",
+    "role": "inspector",
+    "application": "Industry Analysis Workbench",
+    "task": "Track inspection outcomes #63",
+    "object_type": "inspection",
+    "object_id": "inspection-00063",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-440000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-08T10:54:04.218592+00:00"
+  },
+  {
+    "demand_id": "dem-00064",
+    "user_id": "user-004",
+    "role": "risk_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Monitor high-risk enterprises #64",
+    "object_type": "risk",
+    "object_id": "risk-00064",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "critical",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-22T10:54:04.218604+00:00"
+  },
+  {
+    "demand_id": "dem-00065",
+    "user_id": "user-005",
+    "role": "analyst",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Build regional risk dashboard #65",
+    "object_type": "region",
+    "object_id": "region-00065",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-510000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-10T10:54:04.218615+00:00"
+  },
+  {
+    "demand_id": "dem-00066",
+    "user_id": "user-006",
+    "role": "researcher",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Analyze industry regulatory trends #66",
+    "object_type": "industry",
+    "object_id": "industry-00066",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-420000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-01T10:54:04.218630+00:00"
+  },
+  {
+    "demand_id": "dem-00067",
+    "user_id": "user-007",
+    "role": "complaint_handler",
+    "application": "Industry Analysis Workbench",
+    "task": "Investigate complaint-related records #67",
+    "object_type": "complaint",
+    "object_id": "complaint-00067",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-110000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-26T10:54:04.218643+00:00"
+  },
+  {
+    "demand_id": "dem-00068",
+    "user_id": "user-008",
+    "role": "enforcement_officer",
+    "application": "Proactive Compliance Assistant",
+    "task": "Detect abnormal enterprise operations #68",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00068",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-310000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-03T10:54:04.218656+00:00"
+  },
+  {
+    "demand_id": "dem-00069",
+    "user_id": "user-009",
+    "role": "compliance_manager",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Execute regulatory handling workflow #69",
+    "object_type": "penalty",
+    "object_id": "penalty-00069",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-440000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-23T10:54:04.218668+00:00"
+  },
+  {
+    "demand_id": "dem-00070",
+    "user_id": "user-010",
+    "role": "regional_admin",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Subscribe to proactive risk change alerts #70",
+    "object_type": "risk",
+    "object_id": "risk-00070",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "critical",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-29T10:54:04.218680+00:00"
+  },
+  {
+    "demand_id": "dem-00071",
+    "user_id": "user-011",
+    "role": "enforcement_officer",
+    "application": "Industry Analysis Workbench",
+    "task": "Query enterprise profile #71",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00071",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-510000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-15T10:54:04.218693+00:00"
+  },
+  {
+    "demand_id": "dem-00072",
+    "user_id": "user-012",
+    "role": "compliance_manager",
+    "application": "Proactive Compliance Assistant",
+    "task": "Cross-check license and penalty records #72",
+    "object_type": "license",
+    "object_id": "license-00072",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-420000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-10T10:54:04.218705+00:00"
+  },
+  {
+    "demand_id": "dem-00073",
+    "user_id": "user-013",
+    "role": "supervisor",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Track inspection outcomes #73",
+    "object_type": "inspection",
+    "object_id": "inspection-00073",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-110000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "low",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-21T10:54:04.218716+00:00"
+  },
+  {
+    "demand_id": "dem-00074",
+    "user_id": "user-014",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Monitor high-risk enterprises #74",
+    "object_type": "risk",
+    "object_id": "risk-00074",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-310000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-21T10:54:04.218728+00:00"
+  },
+  {
+    "demand_id": "dem-00075",
+    "user_id": "user-015",
+    "role": "regional_admin",
+    "application": "Industry Analysis Workbench",
+    "task": "Build regional risk dashboard #75",
+    "object_type": "region",
+    "object_id": "region-00075",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-440000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-04T10:54:04.218740+00:00"
+  },
+  {
+    "demand_id": "dem-00076",
+    "user_id": "user-016",
+    "role": "policy_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Analyze industry regulatory trends #76",
+    "object_type": "industry",
+    "object_id": "industry-00076",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-330000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-07T10:54:04.218754+00:00"
+  },
+  {
+    "demand_id": "dem-00077",
+    "user_id": "user-017",
+    "role": "enforcement_officer",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Investigate complaint-related records #77",
+    "object_type": "complaint",
+    "object_id": "complaint-00077",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-510000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-23T10:54:04.218767+00:00"
+  },
+  {
+    "demand_id": "dem-00078",
+    "user_id": "user-018",
+    "role": "enforcement_officer",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Detect abnormal enterprise operations #78",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00078",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-420000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-25T10:54:04.218782+00:00"
+  },
+  {
+    "demand_id": "dem-00079",
+    "user_id": "user-019",
+    "role": "compliance_manager",
+    "application": "Industry Analysis Workbench",
+    "task": "Execute regulatory handling workflow #79",
+    "object_type": "penalty",
+    "object_id": "penalty-00079",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-110000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-16T10:54:04.218794+00:00"
+  },
+  {
+    "demand_id": "dem-00080",
+    "user_id": "user-020",
+    "role": "risk_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Subscribe to proactive risk change alerts #80",
+    "object_type": "risk",
+    "object_id": "risk-00080",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-310000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-02T10:54:04.218807+00:00"
+  },
+  {
+    "demand_id": "dem-00081",
+    "user_id": "user-001",
+    "role": "analyst",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Query enterprise profile #81",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00081",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-440000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-24T10:54:04.218819+00:00"
+  },
+  {
+    "demand_id": "dem-00082",
+    "user_id": "user-002",
+    "role": "enforcement_officer",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Cross-check license and penalty records #82",
+    "object_type": "license",
+    "object_id": "license-00082",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-330000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-27T10:54:04.218832+00:00"
+  },
+  {
+    "demand_id": "dem-00083",
+    "user_id": "user-003",
+    "role": "inspector",
+    "application": "Industry Analysis Workbench",
+    "task": "Track inspection outcomes #83",
+    "object_type": "inspection",
+    "object_id": "inspection-00083",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-510000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-11T10:54:04.218844+00:00"
+  },
+  {
+    "demand_id": "dem-00084",
+    "user_id": "user-004",
+    "role": "risk_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Monitor high-risk enterprises #84",
+    "object_type": "risk",
+    "object_id": "risk-00084",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-420000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-28T10:54:04.218855+00:00"
+  },
+  {
+    "demand_id": "dem-00085",
+    "user_id": "user-005",
+    "role": "analyst",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Build regional risk dashboard #85",
+    "object_type": "region",
+    "object_id": "region-00085",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-110000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-28T10:54:04.218866+00:00"
+  },
+  {
+    "demand_id": "dem-00086",
+    "user_id": "user-006",
+    "role": "policy_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Analyze industry regulatory trends #86",
+    "object_type": "industry",
+    "object_id": "industry-00086",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-310000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-04T10:54:04.218880+00:00"
+  },
+  {
+    "demand_id": "dem-00087",
+    "user_id": "user-007",
+    "role": "complaint_handler",
+    "application": "Industry Analysis Workbench",
+    "task": "Investigate complaint-related records #87",
+    "object_type": "complaint",
+    "object_id": "complaint-00087",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-440000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-21T10:54:04.218892+00:00"
+  },
+  {
+    "demand_id": "dem-00088",
+    "user_id": "user-008",
+    "role": "enforcement_officer",
+    "application": "Proactive Compliance Assistant",
+    "task": "Detect abnormal enterprise operations #88",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00088",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-330000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "low",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-02T10:54:04.218905+00:00"
+  },
+  {
+    "demand_id": "dem-00089",
+    "user_id": "user-009",
+    "role": "supervisor",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Execute regulatory handling workflow #89",
+    "object_type": "penalty",
+    "object_id": "penalty-00089",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-510000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-10T10:54:04.218916+00:00"
+  },
+  {
+    "demand_id": "dem-00090",
+    "user_id": "user-010",
+    "role": "regional_admin",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Subscribe to proactive risk change alerts #90",
+    "object_type": "risk",
+    "object_id": "risk-00090",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-420000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "webhook",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-19T10:54:04.218927+00:00"
+  },
+  {
+    "demand_id": "dem-00091",
+    "user_id": "user-011",
+    "role": "analyst",
+    "application": "Industry Analysis Workbench",
+    "task": "Query enterprise profile #91",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00091",
+    "indicators": [
+      "enterprise_id",
+      "enterprise_name",
+      "credit_code",
+      "market_entity_name"
+    ],
+    "conditions": {
+      "scenario_type": "enterprise_profile_query",
+      "business_domains": [
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic enterprise_profile_query scenario for enterprise analysis in CN-110000",
+      "tags": [
+        "enterprise_profile",
+        "enterprise_profile_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-09T10:54:04.218940+00:00"
+  },
+  {
+    "demand_id": "dem-00092",
+    "user_id": "user-012",
+    "role": "enforcement_officer",
+    "application": "Proactive Compliance Assistant",
+    "task": "Cross-check license and penalty records #92",
+    "object_type": "license",
+    "object_id": "license-00092",
+    "indicators": [
+      "license_id",
+      "license_status",
+      "penalty_amount",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "license_penalty_query",
+      "business_domains": [
+        "license_management",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic license_penalty_query scenario for license analysis in CN-310000",
+      "tags": [
+        "license_management",
+        "penalty_record",
+        "license_penalty_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-30T10:54:04.218954+00:00"
+  },
+  {
+    "demand_id": "dem-00093",
+    "user_id": "user-013",
+    "role": "inspector",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Track inspection outcomes #93",
+    "object_type": "inspection",
+    "object_id": "inspection-00093",
+    "indicators": [
+      "inspection_date",
+      "inspection_result",
+      "enterprise_id",
+      "violation_type"
+    ],
+    "conditions": {
+      "scenario_type": "inspection_tracking",
+      "business_domains": [
+        "inspection_result",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic inspection_tracking scenario for inspection analysis in CN-440000",
+      "tags": [
+        "inspection_result",
+        "enterprise_profile",
+        "inspection_tracking"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "json",
+    "priority": "high",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-06-03T10:54:04.218967+00:00"
+  },
+  {
+    "demand_id": "dem-00094",
+    "user_id": "user-014",
+    "role": "supervisor",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Monitor high-risk enterprises #94",
+    "object_type": "risk",
+    "object_id": "risk-00094",
+    "indicators": [
+      "risk_score",
+      "risk_level",
+      "risk_index",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "high_risk_monitoring",
+      "business_domains": [
+        "risk_monitoring",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic high_risk_monitoring scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "enterprise_profile",
+        "high_risk_monitoring"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "critical",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-21T10:54:04.218979+00:00"
+  },
+  {
+    "demand_id": "dem-00095",
+    "user_id": "user-015",
+    "role": "regional_admin",
+    "application": "Industry Analysis Workbench",
+    "task": "Build regional risk dashboard #95",
+    "object_type": "region",
+    "object_id": "region-00095",
+    "indicators": [
+      "region_code",
+      "risk_score",
+      "complaint_count",
+      "penalty_amount"
+    ],
+    "conditions": {
+      "scenario_type": "regional_risk_dashboard",
+      "business_domains": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-510000",
+      "industry_code": "D44",
+      "description": "Synthetic regional_risk_dashboard scenario for region analysis in CN-510000",
+      "tags": [
+        "regional_statistics",
+        "risk_monitoring",
+        "dashboard_summary",
+        "regional_risk_dashboard"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-21T10:54:04.218990+00:00"
+  },
+  {
+    "demand_id": "dem-00096",
+    "user_id": "user-016",
+    "role": "researcher",
+    "application": "Proactive Compliance Assistant",
+    "task": "Analyze industry regulatory trends #96",
+    "object_type": "industry",
+    "object_id": "industry-00096",
+    "indicators": [
+      "industry_code",
+      "risk_score",
+      "complaint_count",
+      "enterprise_id"
+    ],
+    "conditions": {
+      "scenario_type": "industry_trend_analysis",
+      "business_domains": [
+        "industry_analysis",
+        "regional_statistics"
+      ],
+      "region_code": "CN-420000",
+      "industry_code": "M73",
+      "description": "Synthetic industry_trend_analysis scenario for industry analysis in CN-420000",
+      "tags": [
+        "industry_analysis",
+        "regional_statistics",
+        "industry_trend_analysis"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "low",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-11T10:54:04.219001+00:00"
+  },
+  {
+    "demand_id": "dem-00097",
+    "user_id": "user-017",
+    "role": "complaint_handler",
+    "application": "Regulatory Enforcement Portal",
+    "task": "Investigate complaint-related records #97",
+    "object_type": "complaint",
+    "object_id": "complaint-00097",
+    "indicators": [
+      "complaint_count",
+      "enterprise_id",
+      "handling_status",
+      "region_code"
+    ],
+    "conditions": {
+      "scenario_type": "complaint_related_query",
+      "business_domains": [
+        "complaint_report",
+        "enterprise_profile"
+      ],
+      "region_code": "CN-110000",
+      "industry_code": "I64",
+      "description": "Synthetic complaint_related_query scenario for complaint analysis in CN-110000",
+      "tags": [
+        "complaint_report",
+        "enterprise_profile",
+        "complaint_related_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": true,
+      "channel": "push",
+      "frequency": "daily"
+    },
+    "feedback": {},
+    "submitted_at": "2026-04-21T10:54:04.219016+00:00"
+  },
+  {
+    "demand_id": "dem-00098",
+    "user_id": "user-018",
+    "role": "risk_analyst",
+    "application": "Risk Monitoring Dashboard",
+    "task": "Detect abnormal enterprise operations #98",
+    "object_type": "enterprise",
+    "object_id": "enterprise-00098",
+    "indicators": [
+      "enterprise_id",
+      "violation_type",
+      "risk_level",
+      "penalty_reason"
+    ],
+    "conditions": {
+      "scenario_type": "abnormal_operation_query",
+      "business_domains": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record"
+      ],
+      "region_code": "CN-310000",
+      "industry_code": "C33",
+      "description": "Synthetic abnormal_operation_query scenario for enterprise analysis in CN-310000",
+      "tags": [
+        "enterprise_profile",
+        "risk_monitoring",
+        "penalty_record",
+        "abnormal_operation_query"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "csv",
+    "priority": "medium",
+    "subscription": {
+      "enabled": false,
+      "channel": "webhook",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-30T10:54:04.219028+00:00"
+  },
+  {
+    "demand_id": "dem-00099",
+    "user_id": "user-019",
+    "role": "supervisor",
+    "application": "Industry Analysis Workbench",
+    "task": "Execute regulatory handling workflow #99",
+    "object_type": "penalty",
+    "object_id": "penalty-00099",
+    "indicators": [
+      "penalty_amount",
+      "handling_status",
+      "inspection_result",
+      "license_status"
+    ],
+    "conditions": {
+      "scenario_type": "regulatory_handling_task",
+      "business_domains": [
+        "penalty_record",
+        "inspection_result",
+        "license_management"
+      ],
+      "region_code": "CN-440000",
+      "industry_code": "F52",
+      "description": "Synthetic regulatory_handling_task scenario for penalty analysis in CN-440000",
+      "tags": [
+        "penalty_record",
+        "inspection_result",
+        "license_management",
+        "regulatory_handling_task"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "dashboard",
+    "priority": "critical",
+    "subscription": {
+      "enabled": false,
+      "channel": "email",
+      "frequency": "realtime"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-23T10:54:04.219040+00:00"
+  },
+  {
+    "demand_id": "dem-00100",
+    "user_id": "user-020",
+    "role": "risk_analyst",
+    "application": "Proactive Compliance Assistant",
+    "task": "Subscribe to proactive risk change alerts #100",
+    "object_type": "risk",
+    "object_id": "risk-00100",
+    "indicators": [
+      "risk_score",
+      "risk_index",
+      "enterprise_id",
+      "update_time"
+    ],
+    "conditions": {
+      "scenario_type": "proactive_risk_change_subscription",
+      "business_domains": [
+        "risk_monitoring",
+        "dashboard_summary"
+      ],
+      "region_code": "CN-330000",
+      "industry_code": "A01",
+      "description": "Synthetic proactive_risk_change_subscription scenario for risk analysis in CN-330000",
+      "tags": [
+        "risk_monitoring",
+        "dashboard_summary",
+        "proactive_risk_change_subscription"
+      ]
+    },
+    "time_range": {
+      "start": "2026-03-11",
+      "end": "2026-06-09"
+    },
+    "output_format": "parquet",
+    "priority": "high",
+    "subscription": {
+      "enabled": true,
+      "channel": "email",
+      "frequency": "hourly"
+    },
+    "feedback": {},
+    "submitted_at": "2026-05-31T10:54:04.219051+00:00"
+  }
+]

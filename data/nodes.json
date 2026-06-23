@@ -1,0 +1,416 @@
+[
+  {
+    "node_id": "plat-provinci",
+    "node_type": "platform",
+    "name": "Provincial Supervision Cloud",
+    "organization": "provincial_supervision_cloud",
+    "description": "Platform-side fabric node for provincial supervision cloud metadata federation",
+    "supported_tasks": [
+      "metadata_federation",
+      "schema_alignment",
+      "view_materialization",
+      "catalog_sync"
+    ],
+    "supported_services": [
+      "virtual_view_hosting",
+      "cross_platform_query",
+      "metadata_discovery"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "plat-municipa",
+    "node_type": "platform",
+    "name": "Municipal Regulation Platform",
+    "organization": "municipal_regulation_platform",
+    "description": "Platform-side fabric node for municipal regulation platform metadata federation",
+    "supported_tasks": [
+      "metadata_federation",
+      "schema_alignment",
+      "view_materialization",
+      "catalog_sync"
+    ],
+    "supported_services": [
+      "virtual_view_hosting",
+      "cross_platform_query",
+      "metadata_discovery"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "plat-industry",
+    "node_type": "platform",
+    "name": "Industry Regulator Hub",
+    "organization": "industry_regulator_hub",
+    "description": "Platform-side fabric node for industry regulator hub metadata federation",
+    "supported_tasks": [
+      "metadata_federation",
+      "schema_alignment",
+      "view_materialization",
+      "catalog_sync"
+    ],
+    "supported_services": [
+      "virtual_view_hosting",
+      "cross_platform_query",
+      "metadata_discovery"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "plat-cross_re",
+    "node_type": "platform",
+    "name": "Cross Region Data Exchange",
+    "organization": "cross_region_data_exchange",
+    "description": "Platform-side fabric node for cross region data exchange metadata federation",
+    "supported_tasks": [
+      "metadata_federation",
+      "schema_alignment",
+      "view_materialization",
+      "catalog_sync"
+    ],
+    "supported_services": [
+      "virtual_view_hosting",
+      "cross_platform_query",
+      "metadata_discovery"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "plat-national",
+    "node_type": "platform",
+    "name": "National Credit Info Platform",
+    "organization": "national_credit_info_platform",
+    "description": "Platform-side fabric node for national credit info platform metadata federation",
+    "supported_tasks": [
+      "metadata_federation",
+      "schema_alignment",
+      "view_materialization",
+      "catalog_sync"
+    ],
+    "supported_services": [
+      "virtual_view_hosting",
+      "cross_platform_query",
+      "metadata_discovery"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "plat-unified_",
+    "node_type": "platform",
+    "name": "Unified Regulatory Catalog",
+    "organization": "unified_regulatory_catalog",
+    "description": "Platform-side fabric node for unified regulatory catalog metadata federation",
+    "supported_tasks": [
+      "metadata_federation",
+      "schema_alignment",
+      "view_materialization",
+      "catalog_sync"
+    ],
+    "supported_services": [
+      "virtual_view_hosting",
+      "cross_platform_query",
+      "metadata_discovery"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-001",
+    "node_type": "source",
+    "name": "Enterprise Profile Source Node",
+    "organization": "provincial_supervision_cloud",
+    "description": "Source-side node exposing enterprise metadata from provincial_supervision_cloud",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-002",
+    "node_type": "source",
+    "name": "License Management Source Node",
+    "organization": "municipal_regulation_platform",
+    "description": "Source-side node exposing license metadata from municipal_regulation_platform",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-003",
+    "node_type": "source",
+    "name": "Penalty Record Source Node",
+    "organization": "industry_regulator_hub",
+    "description": "Source-side node exposing penalty metadata from industry_regulator_hub",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-004",
+    "node_type": "source",
+    "name": "Inspection Result Source Node",
+    "organization": "cross_region_data_exchange",
+    "description": "Source-side node exposing inspection metadata from cross_region_data_exchange",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-005",
+    "node_type": "source",
+    "name": "Risk Monitoring Source Node",
+    "organization": "national_credit_info_platform",
+    "description": "Source-side node exposing risk metadata from national_credit_info_platform",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-006",
+    "node_type": "source",
+    "name": "Complaint Report Source Node",
+    "organization": "unified_regulatory_catalog",
+    "description": "Source-side node exposing complaint metadata from unified_regulatory_catalog",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-007",
+    "node_type": "source",
+    "name": "Regional Statistics Source Node",
+    "organization": "provincial_supervision_cloud",
+    "description": "Source-side node exposing region metadata from provincial_supervision_cloud",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-008",
+    "node_type": "source",
+    "name": "Industry Analysis Source Node",
+    "organization": "municipal_regulation_platform",
+    "description": "Source-side node exposing industry metadata from municipal_regulation_platform",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-009",
+    "node_type": "source",
+    "name": "Dashboard Summary Source Node",
+    "organization": "industry_regulator_hub",
+    "description": "Source-side node exposing dashboard metadata from industry_regulator_hub",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "degraded"
+  },
+  {
+    "node_id": "src-010",
+    "node_type": "source",
+    "name": "Enterprise Profile Source Node",
+    "organization": "cross_region_data_exchange",
+    "description": "Source-side node exposing enterprise metadata from cross_region_data_exchange",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-011",
+    "node_type": "source",
+    "name": "License Management Source Node",
+    "organization": "national_credit_info_platform",
+    "description": "Source-side node exposing license metadata from national_credit_info_platform",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "src-012",
+    "node_type": "source",
+    "name": "Penalty Record Source Node",
+    "organization": "unified_regulatory_catalog",
+    "description": "Source-side node exposing penalty metadata from unified_regulatory_catalog",
+    "supported_tasks": [
+      "data_extraction",
+      "schema_discovery",
+      "quality_validation",
+      "incremental_sync"
+    ],
+    "supported_services": [
+      "metadata_publish",
+      "batch_export",
+      "event_stream"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "app-001",
+    "node_type": "application",
+    "name": "Regulatory Enforcement Portal",
+    "organization": "provincial_supervision_bureau",
+    "description": "Application-side node for regulatory enforcement portal demand submission",
+    "supported_tasks": [
+      "demand_submission",
+      "view_consumption",
+      "feedback_reporting"
+    ],
+    "supported_services": [
+      "interactive_query",
+      "proactive_subscription",
+      "dashboard_render"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "app-002",
+    "node_type": "application",
+    "name": "Risk Monitoring Dashboard",
+    "organization": "municipal_regulation_office",
+    "description": "Application-side node for risk monitoring dashboard demand submission",
+    "supported_tasks": [
+      "demand_submission",
+      "view_consumption",
+      "feedback_reporting"
+    ],
+    "supported_services": [
+      "interactive_query",
+      "proactive_subscription",
+      "dashboard_render"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "app-003",
+    "node_type": "application",
+    "name": "Industry Analysis Workbench",
+    "organization": "industry_regulator_hub",
+    "description": "Application-side node for industry analysis workbench demand submission",
+    "supported_tasks": [
+      "demand_submission",
+      "view_consumption",
+      "feedback_reporting"
+    ],
+    "supported_services": [
+      "interactive_query",
+      "proactive_subscription",
+      "dashboard_render"
+    ],
+    "status": "active"
+  },
+  {
+    "node_id": "app-004",
+    "node_type": "application",
+    "name": "Proactive Compliance Assistant",
+    "organization": "unified_regulatory_catalog",
+    "description": "Application-side node for proactive compliance assistant demand submission",
+    "supported_tasks": [
+      "demand_submission",
+      "view_consumption",
+      "feedback_reporting"
+    ],
+    "supported_services": [
+      "interactive_query",
+      "proactive_subscription",
+      "dashboard_render"
+    ],
+    "status": "active"
+  }
+]

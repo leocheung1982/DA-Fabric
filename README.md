@@ -2,7 +2,7 @@
 
 **From Passive Querying to Proactive Data Services: A Demand-Aware Data Fabric Framework for Multi-Platform Data Environments**
 
-DA-Fabric is a research prototype that demonstrates a demand-aware data fabric for multi-platform data environments. It supports reproducible IEEE conference experiments, interactive demos, and optional REST access — but it is **not** intended for production deployment.
+DA-Fabric is a research prototype that demonstrates a demand-aware data fabric for multi-platform data environments. It supports reproducible experiments, interactive demos, and optional REST access — but it is **not** intended for production deployment.
 
 The prototype simulates an enterprise regulation scenario: platform-side, source-side, and application-side fabric nodes exchange metadata through a unified control plane, match application demands to distributed resources, construct virtual views, orchestrate cross-node tasks, and deliver proactive data services driven by subscriptions and feedback.
 
@@ -362,7 +362,7 @@ Use this codebase to reproduce paper experiments, demonstrate the framework arch
 
 ## Citation
 
-If you use this prototype in your research, please cite the associated IEEE conference paper:
+If you use this prototype in your research, please cite the associated paper:
 
 > *From Passive Querying to Proactive Data Services: A Demand-Aware Data Fabric Framework for Multi-Platform Data Environments*
 
